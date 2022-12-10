@@ -1,0 +1,43 @@
+<%- include("header") -%>
+
+<div id="subContainer_2">
+    <h2>Weather Forecast</h2>
+
+    <div >
+        <div class="city_name">
+            <h3><%= cityName %></h3>
+       </div>
+   
+       <div class="description">
+           <table>
+            <tr>
+                <th>Temperature :-</th>
+                <td><%= Temperature %> °C</td>
+            </tr>
+            <tr>
+                <th>Description :-</th>
+                <td><%= Description %></td>
+            </tr>
+            <tr>
+                <th>Pressure :-</th>
+                <td><%= Pressure %> Pa</td>
+            </tr>
+            <tr>
+                <th>Humidity :-</th>
+                <td><%= Humidity %> %</td>
+            </tr>
+            <tr>
+                <th>Sea Level :-</th>
+                <td><%= seaLevel %> m</td>
+            </tr>
+          </table>
+       </div>
+       
+       <div class="image">
+           <img src="<%= Image %>" alt="Current climate image" >
+       </div>
+    </div>
+    
+</div>
+
+<%- include("footer") -%>

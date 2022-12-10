@@ -1,0 +1,129 @@
+
+
+body{
+    background-color: #2b2b2b;
+    margin: 0;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+#container{
+    margin: 10px 60px 50px 60px;
+    /* border: solid black 1px; */
+    height: 100%;
+}
+
+.subContainer_1{
+    margin: 40px 4% 0 4%;
+    color: white;
+}
+
+.heading_1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'PT Serif', serif;
+    color: white;
+}
+
+.form{
+    border-radius: 7px;
+    text-align: center;
+    /* border: solid black 1px; */
+    margin: 10px 20px;
+    padding: 30px 0 20px 0;
+    font-size: 25px;
+}
+
+.citylabel{
+    margin-top: 100px;
+}
+
+.input_area{
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.button {
+    margin: 20px;
+    background-color: rgb(255, 255, 255); 
+    border-radius: 30%;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+
+
+#subContainer_2{
+    margin: 50px 5%;
+    border: steelblue solid 1px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    text-decoration: underline ;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.city_name{
+   padding: 0 20px 0 20px;
+}
+
+.description{
+    padding: 0 20px 0 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  th{
+      width: 150px;
+  }
+  
+  tr:hover {background-color: #c5e9e9;}
+
+
+.image{
+     text-align: center;
+     margin: 20px auto 20px auto;
+     background-color: #c5e9e9;
+     width: 150px;
+     border-radius: 60px;
+}
+
+
+
+
+          /*    Error Page   */
+
+.error{
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
